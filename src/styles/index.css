@@ -1,11 +1,26 @@
-/* 
+.container{
+    border: 5px solid rgb(138, 68, 79);
+    background-color: pink;
+    opacity: 0.5;
+    width: 50%;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+h1{
+    color:rgb(218, 48, 76);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px #333;
+}
+input{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+li{
+    color: cornflowerblue;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-display:fallback;
+    margin-top: 10px;
+    border: 5px solid rgb(133, 0, 20);
+    width: 100%;
+}
