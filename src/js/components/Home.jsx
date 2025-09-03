@@ -92,6 +92,7 @@ const Home = () => {
           if (e.key === "Enter") {
             nextChore();
             addToDo(newchore.label);
+            setNewChore({ label: "", is_done: false })
           }
         }}
       />
